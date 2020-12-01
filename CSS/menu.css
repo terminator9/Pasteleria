@@ -1,0 +1,100 @@
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contimg{
+    width: 300px;
+    margin:  0 auto;
+    
+    border-bottom:-1px;
+    border-left: 1px;
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow: 10px 2px 20px ;
+}
+.img{
+    width: 100%;
+    margin: auto;
+    
+}
+.name{
+    text-align: center;
+    color:red;
+    font-size: 25px;
+    overflow: hidden;
+    /*padding-left: 100px;*/
+    margin: 20%;
+    text-shadow:2px 2px 2px;
+
+}
+.nam{
+    font-size:25px;
+    color: red;
+    text-align: justify;
+    text-shadow:2px 2px 2px;
+    overflow: hidden;
+}
+.precio{
+    font-size: large;
+    overflow: hidden;
+    text-align: right;
+    margin-left: 10%;
+
+}
+button{
+    float: left;
+    padding: 1px;
+    color:white;
+    background-color: seagreen;
+}
+button:hover{
+    pointer-events: fill;
+}
+@media(max-width:720px){
+    .contimg{
+        width: 230px;
+        margin-top:15px  ;
+}
+@media(max-width:465px){
+    .contimg{
+        width: 200px;
+        margin-top:15px  ;
+}
+@media(max-width:408px){
+    .contimg{
+        width: 190px;
+        margin-top:15px  ;
+}
+@media(max-width:388px){
+    .contimg{
+        width: 180px;
+        margin-top:15px  ;
+}
+@media(max-width:366px){
+    .contimg{
+        width: 150px;
+        margin-top:15px  ;
+}
+@media(max-width:306px){
+    .contimg{
+        width: 130px;
+        margin-top:15px  ;
+}
+@media(max-width:266px){
+    .contimg{
+        width: 110px;
+        margin-top:15px  ;
+}
+@media(max-width:226px){
+    .contimg{
+        width: 100px;
+        margin-top:15px  ;
+}
+@media(max-width:206px){
+    .contimg{
+        width: 90px;
+        margin-top:15px  ;
+}
